@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import LightSwitch from './components/LightSwitch';
 ReactDOM.render(
-  <div>
-    Mount Components Here
-  </div>,
+  <LightSwitch />, 
   document.getElementById('root')
-);
+  );
